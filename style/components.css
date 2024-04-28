@@ -1,0 +1,18 @@
+/*Button*/
+.button {
+    padding: 14px 16px;
+    color: var(--color-text-btn);
+    background: var(--color-primary);
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.button_pad {
+    padding: 16px 32px;
+}

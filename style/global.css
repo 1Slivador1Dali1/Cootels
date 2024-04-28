@@ -43,15 +43,18 @@
     --color-primary:#0E1734;
     --color-text-pr:#192252;
     --color-text-st:#848FAC;
+    --color-text-btn:#FFFFFF;
 
     --font-family: "Inter", sans-serif;
     --second-family: "Montserrat", sans-serif;
 
     --padding-btn: 16px 32px;
+    --layout-width: 1440px;
 }
 
 * {
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 html {
@@ -62,4 +65,8 @@ html {
 
 body {
     background: var(--color-bg);
+}
+
+a {
+    text-decoration: none;
 }
